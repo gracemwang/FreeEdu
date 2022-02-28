@@ -1,1 +1,131 @@
-
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+  }
+  
+  /*make all paragraphs the same color and size*/
+  p {
+    font-size: 20px;
+    color: #293241;
+  }
+  
+  /*intro paragraph class*/
+  .para1 {
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  
+  /*Style the home button*/
+  .home {
+    width: 40px !IMPORTANT;
+    height: 40px !IMPORTANT;
+    float: left !IMPORTANT;
+    padding: 5.1px !IMPORTANT;
+  }
+  
+  /* Style the top navigation bar */
+  .navbar {
+    /* position: sticky; */
+    overflow: hidden;
+    background-color: #3d5a80;
+  }
+  
+  /* Style the topnav links */
+  .navbar a {
+    float: right;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  /* Change color on hover */
+  .navbar a:hover:not(.activepage) {
+    background-color: #98c1d9;
+    color: #ee6c4d;
+  }
+  
+  /* indicate active page on nav */
+  .navbar a.activepage {
+    background-color: #ddd(147, 179, 148);
+  }
+  
+  .divtitlebar {
+    font-size: 30px;
+    background-color: white;
+  }
+  
+  .h1titlebar {
+    text-align: center;
+    
+  }
+  
+  .title {
+    padding: 20px;
+    color: #ee6c4d;
+    text-align: center;
+  }
+  
+  /*column*/
+  .c {
+    float: left;
+    padding: 1%;
+  }
+  
+  /*left column*/
+  .c.left {
+    width: 35%;
+  }
+  
+  /*right column*/
+  .c.right {
+    width: 60%;
+    text-align: right;
+  }
+  
+  /*tutors page table*/
+  #tutors {
+    padding: 30px;
+    padding-top: 0px;
+    list-style-type: none;
+    position: relative;
+  }
+  
+  #tutors img {
+    width: 500px;
+    padding-bottom: 30px;
+  }
+  
+  #tutors .text {
+    padding: 50px;
+    vertical-align: top;
+  }
+  
+  /*programs*/
+  #programs {
+    padding: 30px;
+    padding-top: 0px;
+    list-style-type: none;
+    position: relative;
+  }
+  
+  #programs img {
+    width: 500px;
+    padding-bottom: 30px;
+  }
+  
+  #programs .text {
+    padding: 50px;
+    vertical-align: top;
+  }
+  
+  /*google form*/
+  #form {
+    text-align: center;
+    
+  }
