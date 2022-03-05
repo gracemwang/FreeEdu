@@ -1,5 +1,5 @@
 * {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     padding: 0px;
     margin: 0px;
     border: 0px;
@@ -10,12 +10,18 @@
     font-size: 20px;
     color: #293241;
   }
+
+  .div1 {
+    padding-top: 35px;
+    line-height: 50px;
+  }
   
   /*intro paragraph class*/
   .para1 {
     padding: 10px;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    line-height: 50px;
   }
   
   /*Style the home button*/
@@ -47,7 +53,7 @@
   /* Change color on hover */
   .navbar a:hover:not(.activepage) {
     background-color: #98c1d9;
-    color: #ee6c4d;
+    color: #ffffff;
   }
   
   /* indicate active page on nav */
