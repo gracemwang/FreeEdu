@@ -3,26 +3,78 @@
     padding: 0px;
     margin: 0px;
     border: 0px;
+    /* font-weight: 10; */
+  }
+
+  table {
+    padding: 0px;
+    border-collapse: collapse;
   }
   
   /*make all paragraphs the same color and size*/
   p {
     font-size: 20px;
     color: #293241;
+    line-height: 50px;
+    padding: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+  b {
+    font-weight: 900;
+    color: #ee6c4d;
+  }
+
+  ol {
+    font-size: 20px;
+    padding: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+    color: #293241;
+    line-height: 50px;
+  }
+
+  .muted {
+    font-size: 15px;
+    color: #3d5a80;
   }
 
   .div1 {
     padding-top: 35px;
     line-height: 50px;
+    padding-bottom: 35px;
   }
-  
-  /*intro paragraph class*/
-  .para1 {
+
+  .div2 {
+    padding-top: 35px;
+    line-height: 50px;
+    background-color: #e3f8ff;
+  }
+
+  h3 {
+    font-size: 20px;
+    color: #ee6c4d;
+    line-height: 50px;
     padding: 10px;
     padding-left: 100px;
     padding-right: 100px;
-    line-height: 50px;
   }
+
+  tr img {
+    padding-left: 100px;
+  }
+
+  tr:nth-child(even) {
+    background-color: #e3f8ff;
+  }
+  
+  /*intro paragraph class*/
+  /* .para1 {
+    padding: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+  } */
   
   /*Style the home button*/
   .home {
@@ -85,12 +137,12 @@
   
   /*left column*/
   .c.left {
-    width: 35%;
+    width: 50%;
   }
   
   /*right column*/
   .c.right {
-    width: 60%;
+    width: 45%;
     text-align: right;
   }
   
@@ -114,7 +166,7 @@
   
   /*programs*/
   #programs {
-    padding: 30px;
+    /* padding: 30px; */
     padding-top: 0px;
     list-style-type: none;
     position: relative;
